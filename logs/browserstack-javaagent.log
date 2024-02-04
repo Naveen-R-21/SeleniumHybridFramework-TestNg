@@ -1,0 +1,502 @@
+16:28:19.093 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+16:28:19.104 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+16:28:20.242 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/browserstack.yml
+16:28:20.647 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+16:28:20.685 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+16:28:32.909 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+16:28:32.919 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+16:28:33.888 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/browserstack.yml
+16:28:34.216 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+16:28:34.242 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+16:29:09.646 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - org.testng.remote.RemoteTestNG -serport 49489 -protocol json -d /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/test-output /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+16:29:09.738 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+16:29:15.497 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - org.testng.remote.RemoteTestNG -serport 49491 -protocol json -d /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/test-output /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+16:29:15.518 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:29:15.574 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+16:29:20.268 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:29:20.279 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: java.io.IOException: Cannot run program "/Users/naveen.r/.browserstack/BrowserStackLocal": error=13, Permission denied.
+16:29:20.280 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed java.io.IOException: Cannot run program "/Users/naveen.r/.browserstack/BrowserStackLocal": error=13, Permission denied.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.a(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:386)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+
+16:29:20.524 [Thread-1] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/bsjoysmple9gnnwwrqglii0ru0bck6sz4ks4v16u to view build report, insights, and many more debugging information all at one place!
+
+16:29:42.957 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:31:56.915 [Thread-1] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/s3ahkctk5jiwdxpkfrnzew0k4vuayficrxj9zlvl to view build report, insights, and many more debugging information all at one place!
+
+16:45:16.029 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+16:45:16.033 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+16:45:16.221 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/browserstack.yml
+16:45:16.298 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+16:45:16.306 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+16:45:16.852 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - org.testng.remote.RemoteTestNG -serport 50137 -protocol json -d /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/test-output /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+16:45:16.883 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+16:45:24.326 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:45:29.511 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:45:31.551 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/prawpythd80tf0uhfhppwnu51rq3ttauxddft5pl to view build report, insights, and many more debugging information all at one place!
+
+16:56:32.842 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+16:56:32.845 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+16:56:33.064 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/browserstack.yml
+16:56:33.128 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+16:56:33.921 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - org.testng.remote.RemoteTestNG -serport 50329 -protocol json -d /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/test-output /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+16:56:33.955 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+16:56:38.343 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:56:42.767 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:56:44.189 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ficnupyhtwn4ed0huas6rqfbpbzkwjlscacjqpt2 to view build report, insights, and many more debugging information all at one place!
+
+17:00:13.436 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+17:00:13.438 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:00:13.605 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/browserstack.yml
+17:00:13.654 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:00:14.344 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - org.testng.remote.RemoteTestNG -serport 50383 -protocol json -d /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/test-output /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+17:00:14.374 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+17:00:18.669 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:00:22.771 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:00:24.097 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/wwl0cfmcr2hg5qludccopoyrpikqqgudentzfxgb to view build report, insights, and many more debugging information all at one place!
+
+17:00:56.851 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+17:00:56.853 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:00:57.016 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/browserstack.yml
+17:00:57.064 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:00:57.602 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - org.testng.remote.RemoteTestNG -serport 50414 -protocol json -d /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/test-output /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+17:00:57.632 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+17:01:01.508 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:01:07.178 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:01:09.187 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/hwgivhdjbsvxkow9243ppkqwtrjbnbu2fjcuisvg to view build report, insights, and many more debugging information all at one place!
+
+17:02:21.016 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+17:02:21.019 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:02:21.183 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+17:02:21.183 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+17:02:21.184 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+17:05:29.038 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+17:05:29.041 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:05:29.203 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+17:05:29.203 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+17:05:29.204 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+17:06:24.491 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+17:06:24.493 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:06:24.660 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+17:06:24.660 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+17:06:24.661 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+17:08:02.434 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+17:08:02.436 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:08:02.595 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+17:08:02.595 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+17:08:02.596 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+17:11:07.181 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+17:11:07.184 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:11:07.354 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+17:11:07.358 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+17:11:07.359 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+17:11:27.825 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+17:11:27.828 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:11:27.989 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+17:11:27.989 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+17:11:27.990 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+17:14:28.310 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+17:14:28.313 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:14:28.502 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+17:14:28.502 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+17:14:28.503 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+17:22:54.685 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+17:22:54.689 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:22:54.893 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+17:22:54.893 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+17:22:54.893 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+17:23:24.131 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+17:23:24.135 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:23:24.340 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+17:23:24.341 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+17:23:24.342 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+17:41:49.079 [main] ERROR c.b.config.BrowserStackConfig - Malformed browserstack.yml file - java.nio.file.NoSuchFileException: /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/browserstack.yml.
+17:41:49.086 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+17:43:50.971 [main] ERROR c.b.config.BrowserStackConfig - Malformed browserstack.yml file - java.nio.file.NoSuchFileException: /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/browserstack.yml.
+17:43:50.977 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+21:09:24.852 [main] ERROR c.b.config.BrowserStackConfig - Malformed browserstack.yml file - java.nio.file.NoSuchFileException: /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/browserstack.yml.
+21:09:24.859 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+21:13:19.717 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+21:13:19.721 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:13:19.944 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+21:13:19.944 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+21:13:19.944 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+21:13:19.982 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+21:13:19.982 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:13:19.985 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Empty userName or accessKey
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+21:33:46.846 [main] ERROR c.b.config.BrowserStackConfig - Malformed browserstack.yml file - java.nio.file.NoSuchFileException: /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/browserstack.yml.
+21:33:46.852 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+21:35:04.250 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+21:35:04.253 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:35:04.472 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+21:35:04.472 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+21:35:04.473 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+21:35:04.817 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+
+21:42:20.128 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+21:42:20.132 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:42:20.342 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+21:42:20.342 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+21:42:20.343 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+21:42:20.665 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+
+21:48:01.179 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+21:48:01.183 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:48:01.403 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+21:48:01.403 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+21:48:01.404 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+21:48:01.815 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+
+21:49:02.082 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+21:49:02.084 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:49:02.251 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+21:49:02.251 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+21:49:02.252 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+21:49:02.531 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+
+21:49:24.039 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+21:49:24.042 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:49:24.208 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+21:49:24.208 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+21:49:24.209 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+21:49:24.504 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+
+21:51:11.914 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+21:51:11.917 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:51:12.092 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+21:51:12.092 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+21:51:12.093 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+21:51:12.366 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+
+21:52:31.266 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+21:52:31.269 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:52:31.454 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+21:52:31.454 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+21:52:31.455 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+21:52:31.736 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+
+21:53:40.918 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+21:53:40.920 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:53:41.088 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+21:53:41.088 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+21:53:41.089 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+21:53:41.387 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+
+21:55:34.956 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+21:55:34.959 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:55:35.175 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+21:55:35.175 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+21:55:35.176 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+21:55:35.503 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+
+21:56:33.522 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+21:56:33.526 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:56:33.745 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+21:56:33.745 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+21:56:33.746 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+21:56:34.179 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+
+23:15:08.802 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+23:15:08.805 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+23:15:09.074 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+23:15:09.074 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+23:15:09.075 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+23:17:19.072 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+23:17:19.076 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+23:17:19.281 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+23:17:19.281 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+23:17:19.282 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+23:17:19.625 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+
+23:19:21.408 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+23:19:21.412 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+23:19:21.672 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /browserstack.yml
+23:19:21.673 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+23:19:21.674 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+23:19:22.084 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/naveen.r/Eclipse-Space/SeleniumHybridFramework-TestNg/src/test/resources/testng.xml
+

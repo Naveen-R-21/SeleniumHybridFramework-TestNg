@@ -3,14 +3,16 @@
 <suite name="NopCommerce">
 	
 	 <listeners>
-    <listener class-name="com.nopcommerce.qa.testutils.MyListeners"/>
+    <listener class-name="com.nopcommerce.web.testutils.MyListeners"/>
   </listeners>
 
   <test name="NopCommerce Tests">
     <classes>
-		<class name="com.nopcommerce.qa.testcases.LoginTest"/> 
-		<class name="com.nopcommerce.qa.testcases.RegisterTest"/>
+		<class name="com.nopcommerce.web.testcases.LoginTest"/> 
+		<class name="com.nopcommerce.web.testcases.RegisterTest"/>
 		
     </classes>
   </test> 
+  
+  
 </suite> 

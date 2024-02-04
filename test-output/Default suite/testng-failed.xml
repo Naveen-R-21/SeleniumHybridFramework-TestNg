@@ -5,7 +5,11 @@
     <classes>
       <class name="com.nopcommerce.qa.testcases.LoginTest">
         <methods>
-          <include name="setUp"/>
+          <include name="verifyLoginWithoutCredentials"/>
+          <include name="verifyLoginWithoutPassword"/>
+          <include name="verifyLogin"/>
+          <include name="setUpRegisterPage"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.nopcommerce.qa.testcases.LoginTest -->
     </classes>

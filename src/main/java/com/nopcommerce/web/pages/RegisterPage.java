@@ -1,29 +1,26 @@
-package com.nopcommerce.qa.pages;
+package com.nopcommerce.web.pages;
 
 import java.util.Properties;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import com.github.javafaker.Faker;
-import com.nopcommerce.qa.baseutils.TestBase;
-import com.nopcommerce.qa.testdata.RegisterData;
+import com.nopcommerce.web.baseutils.TestBase;
+import com.nopcommerce.web.testdata.RegisterFakerData;
+import com.nopcommerce.web.testdata.ValidationTexts;
 
 public class RegisterPage extends TestBase  {
 
 
-	private RegisterData registerData;
-	 private Properties registerLocators;
-	
+	private RegisterFakerData registerData;
+	private Properties registerLocators;
 
-	   public RegisterPage(WebDriver driver, Faker faker) {
-	        super(driver, "com/nopcommerce/qa/locators/register.properties");
-	        this.registerData = new RegisterData(faker);
-	      //  this.registerLocators = loadLocators(getLocators().getProperty("register.locator.path"));
-	        System.out.println("Properties loaded in page file ");
-	    }
+
+	public RegisterPage(WebDriver driver, Faker faker) {
+		super(driver, "com/nopcommerce/web/locators/register.properties");
+		this.registerData = new RegisterFakerData(faker);
+	}
 
 	public RegisterPage clickRegisterButton() {
 		try {
@@ -109,22 +106,21 @@ public class RegisterPage extends TestBase  {
 
 			getWebElement("Register.submitRegisterButton").click();
 			return this;
-			
+
 		} catch (Exception e) {
 			handleException("Error while submitting the registration form", e);
 			throw e;
 		}
 	}
-	
+
 	public RegisterPage registerCompletedSuccessMessage() {
 		try {
 
 			String actualText = getWebElement("Register.registerCompletedMessage").getText();
-			String expectedText = "Your registration completed"; // Adjust as needed
-			System.out.println(actualText);
+			String expectedText = ValidationTexts.registerCompletedMessage;
 			Assert.assertEquals(actualText, expectedText, "Text does not match");
 			return this;
-			
+
 		} catch (Exception e) {
 			handleException("Error while submitting the registration form", e);
 			throw e;
@@ -149,13 +145,12 @@ public class RegisterPage extends TestBase  {
 			System.out.println("Registering a new user...");
 
 			enterFirstName(registerData.getFirstName())
-            .enterLastName(registerData.getLastName())
-            .enterEmail(registerData.getEmail())
-            .enterCompanyName(registerData.getCompanyName())
-            .enterPassword(registerData.getPassword())
-            .enterConfirmPassword(registerData.getConfirmPassword())
-            .submitRegisterForm().registerCompletedSuccessMessage();
-			Thread.sleep(3000);
+			.enterLastName(registerData.getLastName())
+			.enterEmail(registerData.getEmail())
+			.enterCompanyName(registerData.getCompanyName())
+			.enterPassword(registerData.getPassword())
+			.enterConfirmPassword(registerData.getConfirmPassword())
+			.submitRegisterForm().registerCompletedSuccessMessage();
 
 			System.out.println("User registration completed ");
 		} catch (Exception e) {

@@ -1,4 +1,4 @@
-package com.nopcommerce.qa.baseutils;
+package com.nopcommerce.web.baseutils;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebDriver;
@@ -22,13 +22,10 @@ public class ExcelUtilities {
 
 		// Check if the operating system is Windows
 		if (os.contains("win")) {
-			// Modify file path for Windows
 			replacedPath = filePath.replace("/", "\\");
-			//System.out.println("Executing in Windows OS ");
 		} else {
 			// Modify file path for other operating systems (assuming Unix-like)
 			replacedPath = filePath.replace("\\", "/");
-			// System.out.println("Executing in MAC OS ");
 		}
 
 		// System.out.println("Modified File Path: " + replacedPath); // Print the modified path only once
@@ -38,8 +35,8 @@ public class ExcelUtilities {
 
 	public static String browserDataFromExcel(String sheetName, int rowNum, int colNum) throws IOException {
 		// Original file path
-		String originalFilePath = "/src/main/java/com/nopcommerce/qa/testdata/NopCommerce.xlsx";
-
+		String originalFilePath = "/src/main/resources/NopCommerce.xlsx";
+		
 		// Modify file path based on the operating system
 		String modifiedFilePath = modifyFilePath(originalFilePath);
 
@@ -81,7 +78,7 @@ public class ExcelUtilities {
 		List<Object[]> testData = new ArrayList<>();
 
 		// Original file path
-		String filePath = "/src/main/java/com/nopcommerce/qa/testdata/NopCommerce.xlsx";
+		String filePath = "/src/main/resources/NopCommerce.xlsx";
 
 		// Modify file path based on the operating system
 		String modifiedFilePath = modifyFilePath(filePath);

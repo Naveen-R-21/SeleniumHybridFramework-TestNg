@@ -1,4 +1,4 @@
-package com.nopcommerce.qa.baseutils;
+package com.nopcommerce.web.baseutils;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -12,10 +12,10 @@ import java.util.Properties;
 public class ExtentReporter {
 
 	public static ExtentReports generateExtentReport() throws IOException {
-		
+
 		//Email Report ssl code block
-//		 System.setProperty("https.protocols", "TLSv1.2,TLSv1.3");
-//		 System.setProperty("https.cipherSuites", "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256");
+		//		 System.setProperty("https.protocols", "TLSv1.2,TLSv1.3");
+		//		 System.setProperty("https.cipherSuites", "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256");
 
 		ExtentReports extentReport = new ExtentReports();
 
@@ -38,7 +38,7 @@ public class ExtentReporter {
 
 		// Load configuration properties
 		Properties configProp = new Properties();
-		File configPropFile = new File(System.getProperty("user.dir") + "/src/main/java/com/nopcommerce/qa/config/config.properties");
+		File configPropFile = new File(System.getProperty("user.dir") + "/src/main/java/com/nopcommerce/web/config/config.properties");
 
 		try (FileInputStream fisConfigProp = new FileInputStream(configPropFile)) {
 			configProp.load(fisConfigProp);
@@ -54,7 +54,7 @@ public class ExtentReporter {
 		extentReport.setSystemInfo("Operating System", System.getProperty("os.name"));
 		extentReport.setSystemInfo("Username", System.getProperty("user.name"));
 		extentReport.setSystemInfo("Java Version", System.getProperty("java.version"));
-		
+
 		//To Send report in Email
 		//EmailUtils.sendEmailWithAttachment(configProp.getProperty("fromEmail"),("fromPassword"),("toEmail"),("subject"),("body"), extentReportFile.getAbsolutePath());
 		return extentReport;
