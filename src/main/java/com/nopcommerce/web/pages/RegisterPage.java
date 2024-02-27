@@ -15,6 +15,9 @@ public class RegisterPage extends TestBase  {
 
 	private RegisterFakerData registerData;
 	private Properties registerLocators;
+	static WebElement lastNameLocator ;
+	
+	
 
 
 	public RegisterPage(WebDriver driver, Faker faker) {
@@ -36,8 +39,8 @@ public class RegisterPage extends TestBase  {
 	public RegisterPage enterFirstName(String firstName) {
 		try {
 
-			WebElement firstNameLocator = getWebElement("Register.firstName");
-			sendKeys(firstNameLocator,firstName);
+			WebElement lastNameLocator = getWebElement("Register.firstName");
+			sendKeys(lastNameLocator,firstName);
 			return this;
 		} catch (Exception e) {
 			handleException("Error while entering First Name", e);
